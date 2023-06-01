@@ -9,4 +9,9 @@ public class HomeController {
     public String home() {
         return "안녕 데브옵스...잘 동작되는지 테스트 합니다.";
     }
+
+    @GetMapping("/")
+    public String root() {
+        return "안녕 반가워..";
+    }
 }
