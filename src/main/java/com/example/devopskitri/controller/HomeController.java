@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HomeController {
     @GetMapping("/home")
     public String home() {
-        return "안녕 데브옵스...hiaaa";
+        return "안녕 데브옵스...잘 동작되는지 테스트 합니다.";
     }
 }
