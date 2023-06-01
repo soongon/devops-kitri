@@ -12,6 +12,6 @@ public class HomeController {
 
     @GetMapping("/")
     public String root() {
-        return "안녕 반가워..";
+        return "안녕 반가워..소스 수정 했어.. 방금 1:33";
     }
 }
